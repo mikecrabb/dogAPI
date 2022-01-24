@@ -13,6 +13,7 @@ $rules = array(
     'apiUserPartsCollected' => "/api/userPartsCollected/(?'userID'[\w\-]+)",
     'apiCollectedParts' => "/api/collectedParts/(?'partID'[\w\-]+)",
     'apiShowDogs' => "/api/allDogs",
+    'apiShowSingleDogs' => "/api/singleDog/(?'dogID'[\w\-]+)",
 
 
 
