@@ -5,13 +5,6 @@ define('INCLUDE_DIR', dirname(__FILE__) . '/inc/');
 $rules = array(
     //
     //API Routes
-    //put
-    'apiLogin' => "/api/login/(?'loginID'[\w\-]+)",
-    'apiCollectPart' => "/api/collectPart/(?'loginID'[\w\-]+)/(?'partID'[\w\-]+)",
-    //get
-    'apiUserLogins' => "/api/userLogins/(?'userID'[\w\-]+)",
-    'apiUserPartsCollected' => "/api/userPartsCollected/(?'userID'[\w\-]+)",
-    'apiCollectedParts' => "/api/collectedParts/(?'partID'[\w\-]+)",
     'apiShowDogs' => "/api/allDogs",
     'apiShowSingleDogs' => "/api/singleDog/(?'dogID'[\w\-]+)",
 
